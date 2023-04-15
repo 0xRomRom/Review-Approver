@@ -1,0 +1,85 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  position: relative;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews-box {
+  position: relative;
+  width: 30rem;
+  height: 100vh;
+  /* background-color: green; */
+}
+
+h1 {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.reviews-column {
+  position: relative;
+  max-width: 100%;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 0.2rem;
+}
+
+.review {
+  position: relative;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+span {
+  font-family: "Montserrat";
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  border-bottom: 1px solid black;
+  /* border: 1px solid black; */
+  font-family: "Montserrat";
+  width: 100%;
+  text-align: center;
+}
+
+.approve-box {
+  position: relative;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  /* background-color: green; */
+  gap: 0.5rem;
+}
+
+.cta {
+  position: relative;
+  width: 5rem;
+  height: 2rem;
+  cursor: pointer;
+}
