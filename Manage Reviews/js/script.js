@@ -39,16 +39,6 @@ const fetchQueue = async () => {
 };
 fetchQueue();
 
-// const approveButtons = document.querySelectorAll(".approve");
-
-// approveButtons.forEach((button) => {
-//   button.addEventListener("click", () => {
-//     alert("hi");
-//     console.log(e.target.dataset);
-//   });
-// });
-// const rejectButtons = document.querySelectorAll(".reject");
-
 reviewList.addEventListener("click", async (e) => {
   if (e.target.classList[1] !== "approve" && e.target.classList[1] !== "reject")
     return;
